@@ -11,6 +11,14 @@
 	
 	3. Initialize SQLite DB
 		airflow db init
-	
-	4. Execute
+		
+	4. Setup admin user
+		airflow users create \
+		  --username admin \
+		  --firstname FIRST_NAME \
+		  --lastname LAST_NAME \
+		  --role Admin \
+		  --email admin@example.org
+		  
+	5. Execute
 		airflow webserver -p 8080 & airflow scheduler

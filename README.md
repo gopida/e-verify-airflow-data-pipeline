@@ -1,1 +1,1 @@
-# Airflow data pipeline to autoamte ETL
+# Airflow data pipeline to automate ETL

@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Logs
+logs
+airflow/logs
+
+# Database
+airflow/airflow.db
+
+# Server start script
+start_airflow.sh
+
+# Test files
+airflow/dags/test.py
+

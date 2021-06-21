@@ -141,3 +141,5 @@ start_airflow.sh
 # Test files
 airflow/dags/test.py
 
+# Process
+*.pid
